@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.wdahtmlbox {
+    margin: auto;
+    padding: 16px;
+    width: 100%;
+    min-height: 200px;
+    background-color: white;
+}
+
+.wdaTitleBox {
+
+}
+
+.wdaTitleBox img {
+    width: 64px;
+}
+
+/* ul li�Ժ�����ʾ */
+
+/* ����classΪtab_infos��div�е�ul��ʽ */
+ul {
+    list-style: none; /* ȥ��ulǰ��ķ��� */
+    margin-top: 20px; /* �����Ԫ�صľ���Ϊ0 */
+    height: 40px;
+    padding: 0px; /* ���ڲ�Ԫ�صľ���Ϊ0 */
+    width: auto; /* ��ȸ���Ԫ�����ݵ��� */
+}
+
+/* ����classΪtab_infos��div�е�ul�е�li��ʽ */
+ul li {
+    float: left; /* ����Ư�ƣ������ű�Ϊ���� */
+}
+
+/* ����classΪtab_infos��div�е�ul�е�a��ʽ(������δ����ĺ͵��������ʽ) */
+ul li, ul li:visited {
+    background-color: #465c71; /* ����ɫ */
+    border: 1px #4e667d solid; /* �߿� */
+    color: #dde4ec; /* ������ɫ */
+    display: block; /* ��Ԫ�ؽ���ʾΪ�鼶Ԫ�أ���Ԫ��ǰ�����л��з� */
+    line-height: 1.35em; /* �и� */
+    padding: 4px 20px; /* �ڲ����ľ��� */
+    text-decoration: none; /* ����ʾ�������»��� */
+    white-space: nowrap; /* �����ı��ڵĿհ״������ỻ�У��ı�������ͬһ���ϼ�����ֱ������ <br> ��ǩΪֹ�� */
+}
+
+/* ����classΪtab_infos��div�е�ul�е�a��ʽ(����ƶ���Ԫ���е���ʽ) */
+ul li:hover {
+    background-color: #bfcbd6; /* ����ɫ */
+    color: #465c71; /* ������ɫ */
+    text-decoration: none; /* ����ʾ�������»��� */
+}
+
+.tab_tit {
+    margin-left: 138px;
+}
+
+.tab_infos {
+    min-height: 200px;
+}
+
+/* ����classΪtab_infos��div�е�ul�е�a��ʽ(�����Ԫ��ʱ����ʽ) */
+ul li:active {
+    background-color: #465c71; /* ����ɫ */
+    color: #cfdbe6; /* ������ɫ */
+    text-decoration: none; /* ����ʾ�������»��� */
+}
+
+ul li .selected {
+    background-color: #bfcbd6; /* ����ɫ */
+    color: #465c71; /* ������ɫ */
+    text-decoration: none; /* ����ʾ�������»��� */
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    overflow: auto;
+}
+
+table td, table th {
+    border: 1px solid #cad9ea;
+    color: #666;
+    height: 30px;
+}
+
+table thead th {
+    background-color: #CCE8EB;
+    width: 100px;
+}
+
+table tr:nth-child(odd) {
+    background: #fff;
+}
+
+table tr:nth-child(even) {
+    background: #F5FAFA;
+} 
